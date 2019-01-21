@@ -18,9 +18,9 @@ public class Main {
 			list1.add(i);
 		}
 
-		System.out.println(list1);
+		System.out.println("Voici L'arraylist en entrée : " + list1);
 
-		System.out.println(test.partition(list1, 5));
+		System.out.println("Voici le résultat : " + test.partition(list1, 5));
 
 	}
 
